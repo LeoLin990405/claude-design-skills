@@ -1,0 +1,41 @@
+name: Feature Request
+description: Suggest a new skill or improvement
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Request Type
+      options:
+        - New skill
+        - Improvement to existing skill
+        - New theme / template
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the feature or improvement you would like.
+      placeholder: I would like a skill that ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: How would this feature be used? What problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any workarounds or alternative approaches you have tried.
+    validations:
+      required: false

@@ -1,0 +1,56 @@
+name: Bug Report
+description: Report a problem with one of the design skills
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      description: Which skill is affected?
+      options:
+        - algorithmic-art
+        - canvas-design
+        - frontend-design
+        - web-artifacts-builder
+        - theme-factory
+        - slack-gif-creator
+        - brand-guidelines
+        - Other / General
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear description of the bug.
+      placeholder: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the issue?
+      placeholder: |
+        1. Ask Claude Code to "..."
+        2. Observe that ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any extra information (screenshots, logs, environment details).
+    validations:
+      required: false
