@@ -1,28 +1,23 @@
 ---
 name: claude-design-skills
-description: Design and creative toolkit
-version: 1.0.0
+description: Archived. The active design-related skills now live in claude-code-skills across design/ and development/
+version: 1.0.1
 ---
 
-# Claude Design Skills
+# Archived: Claude Design Skills moved
 
-Design and creative toolkit for Claude Code.
+This repository is archived as a source repo.
 
-## Skills Index
+Use the active monorepo instead:
+- `https://github.com/LeoLin990405/claude-code-skills`
 
-### Generative Art
-- [algorithmic-art](skills/algorithmic-art/SKILL.md) - p5.js generative art
+Destination paths:
+- `design/brand-guidelines`
+- `design/canvas-design`
+- `design/slack-gif-creator`
+- `design/theme-factory`
+- `development/algorithmic-art`
+- `development/frontend-design`
+- `development/web-artifacts-builder`
 
-### Visual Design
-- [canvas-design](skills/canvas-design/SKILL.md) - Visual art design
-- [theme-factory](skills/theme-factory/SKILL.md) - Theme styling toolkit
-
-### Web & UI
-- [frontend-design](skills/frontend-design/SKILL.md) - Frontend interface design
-- [web-artifacts-builder](skills/web-artifacts-builder/SKILL.md) - Web artifacts construction
-
-### Media
-- [slack-gif-creator](skills/slack-gif-creator/SKILL.md) - Slack GIF creation
-
-### Brand
-- [brand-guidelines](skills/brand-guidelines/SKILL.md) - Anthropic brand guidelines
+Do not add new content to this archived source repo.
