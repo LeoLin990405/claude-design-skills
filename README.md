@@ -1,8 +1,8 @@
-# Archived: moved to claude-code-skills
+# Design Skills
 
-This repository is no longer the canonical home for these design-related skills.
+This repository is public and unarchived. It is kept as a maintenance mirror and migration reference for the design-related skills.
 
-The active destination is:
+The active canonical destination is:
 - https://github.com/LeoLin990405/claude-code-skills
 
 The migrated skill packs now live across two destination categories:
@@ -18,6 +18,6 @@ Development category:
 - `claude-design-skills/skills/frontend-design` -> `claude-code-skills/development/frontend-design`
 - `claude-design-skills/skills/web-artifacts-builder` -> `claude-code-skills/development/web-artifacts-builder`
 
-Use `claude-code-skills` for all future updates, fixes, and installation flows.
+## Maintenance
 
-This source repository is retained only as a historical pointer and is expected to remain archived.
+Use `claude-code-skills` for new features, design-system updates, and installation flow changes. This repository remains available for historical source context, issue triage, and small compatibility fixes when needed.
