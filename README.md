@@ -1,23 +1,19 @@
-# Design Skills
+# Archived Source Repository
 
-This repository is public and unarchived. It is kept as a maintenance mirror and migration reference for the design-related skills.
+This repository is no longer the canonical home for the design skills.
 
-The active canonical destination is:
-- https://github.com/LeoLin990405/claude-code-skills
+Canonical locations:
 
-The migrated skill packs now live across two destination categories:
+- `LeoLin990405/claude-code-skills`
+- `design/*`
+- `development/frontend-design`
 
-Design category:
-- `claude-design-skills/skills/brand-guidelines` -> `claude-code-skills/design/brand-guidelines`
-- `claude-design-skills/skills/canvas-design` -> `claude-code-skills/design/canvas-design`
-- `claude-design-skills/skills/slack-gif-creator` -> `claude-code-skills/design/slack-gif-creator`
-- `claude-design-skills/skills/theme-factory` -> `claude-code-skills/design/theme-factory`
+What changed:
 
-Development category:
-- `claude-design-skills/skills/algorithmic-art` -> `claude-code-skills/development/algorithmic-art`
-- `claude-design-skills/skills/frontend-design` -> `claude-code-skills/development/frontend-design`
-- `claude-design-skills/skills/web-artifacts-builder` -> `claude-code-skills/development/web-artifacts-builder`
+- the active design, theme, demo, and frontend design skills live in `claude-code-skills`
+- this standalone repository is kept only as a historical source and redirect pointer
 
-## Maintenance
+Use or update the skills here:
 
-Use `claude-code-skills` for new features, design-system updates, and installation flow changes. This repository remains available for historical source context, issue triage, and small compatibility fixes when needed.
+- <https://github.com/LeoLin990405/claude-code-skills/tree/main/design>
+- <https://github.com/LeoLin990405/claude-code-skills/tree/main/development/frontend-design>
